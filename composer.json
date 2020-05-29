@@ -1,0 +1,24 @@
+{
+    "name": "andrelsf/project",
+    "description": "Project",
+    "authors": [
+        {
+            "name": "Andre Ferreira",
+            "email": "andre.dev.linux@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.8",
+        "slim/psr7": "^0.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "phpunit/php-code-coverage": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Project\\": "./src"
+        }
+    }
+}
