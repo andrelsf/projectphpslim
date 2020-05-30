@@ -23,6 +23,9 @@ class AppDI
      */
     $container = new Container($settings);
 
+    /**
+     * Loader Dependencies
+     */
     require APP_ROOT . '/config/dependencies.php';
     
     $this->container = $container;
