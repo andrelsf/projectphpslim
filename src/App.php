@@ -18,7 +18,7 @@ class App
     /**
      * Load Routers
      */
-    require APP_ROOT . '/config/routes.php';
+    require __DIR__ . '/../config/routes.php';
 
     $this->app = $app;
   }

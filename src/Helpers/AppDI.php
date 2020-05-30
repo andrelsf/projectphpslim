@@ -26,7 +26,7 @@ class AppDI
     /**
      * Loader Dependencies
      */
-    require APP_ROOT . '/config/dependencies.php';
+    require __DIR__ . '/../../config/dependencies.php';
     
     $this->container = $container;
   }

@@ -6,7 +6,7 @@ return [
         'determineRouteBeforeAppMiddleware' => true,
         'logger' => [
             'name' => 'project',
-            'logfile' => APP_ROOT . "/data/logs/projectx.log"
+            'logfile' => __DIR__ . "/../data/logs/projectx.log"
         ]
     ]
 ];
