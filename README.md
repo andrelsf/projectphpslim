@@ -9,4 +9,5 @@ Structure basic with PHPSlim
 
 #### Referencies
 
-* [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset)
+* [PHP Code Sniffer Reporting](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Reporting)
+* [PHP Code Sniffer XML File](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset)

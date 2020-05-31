@@ -1,10 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="Custom Standard">
     <description>PHP CS Project</description>
     
     <!-- Display progress -->
     <arg value="p"/>
     <arg name="colors"/>
+    <arg name="report" value="summary"/>
     <arg name="extensions" value="php,dist,phtml"/>
 
     <!-- inherit rules from: -->
