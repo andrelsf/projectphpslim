@@ -18,8 +18,8 @@ class PingController
     private $container;
 
     /**
-     * @method  __construct
-     * @param   Container
+     * @method __construct
+     * @param Container
      */
     public function __construct(Container $container)
     {

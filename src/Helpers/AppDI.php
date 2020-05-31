@@ -6,36 +6,35 @@ use Slim\Container;
 
 class AppDI
 {
-  /**
-   * @var Container
-   */
-  private $container;
-
-  /**
-   * @method __construct
-   * @var array $settings
-   */
-  public function __construct(array $settings)
-  {
     /**
-     * Container Resources:
-     * Adiciona as definições
+     * @var Container
      */
-    $container = new Container($settings);
+    private $container;
 
     /**
-     * Loader Dependencies
+     * @method __construct
+     * @var array $settings
      */
-    require __DIR__ . '/../../config/dependencies.php';
-    
-    $this->container = $container;
-  }
+    public function __construct(array $settings)
+    {
+        /**
+         * Container Resources:
+         * Adiciona as definições
+         */
+        $container = new Container($settings);
 
-  /**
-   * @return Container
-   */
-  public function getContainer()
-  {
-    return $this->container;
-  }
+        /**
+         * Loader Dependencies
+         */
+        require __DIR__ . '/../../config/dependencies.php';
+        $this->container = $container;
+    }
+
+    /**
+     * @return Container
+     */
+    public function getContainer()
+    {
+        return $this->container;
+    }
 }
